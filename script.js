@@ -135,7 +135,9 @@ const strings = [
     "Am I like you expected me to be?",
     "What do you admire most about me?",
     "How would you describe me to a stranger?",
-    "WILDCARD: Draw your favorite memory with me. Compare"
+    "WILDCARD: Draw your favorite memory with me. Compare",
+    "EASTER EGG (1/?): Would you like to go see Beau is afraid w/me next week? Like, on a date",
+    "EASTER EGG (2/??): Me gustas"
 ]
         
     
