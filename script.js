@@ -1,10 +1,7 @@
 const strings = [
-    "What do you think is the hardest part of what I do for a living?",
     "What reality show do you think I'm most likely to binge watch? Explain.",
     "What's the first thing you noticed about me?",
     "If Myspace was still a thing what would my profile song be?",
-    "If you were to buy me a present, knowing nothing about me other than what I look like, what would it be?",
-    "On a scale of 1-10, how messy do you think my car is? 1 being the cleanest 10 complete disaster, explain.",
     "Do you think plants thrive or die in my care? Explain.",
     "Do I look kind? Explain.",
     "Do I seem like more of a creative or analytical type? Explain.",
@@ -30,7 +27,6 @@ const strings = [
     "What compliment do you think I hear the most?",
     "Do you think I ever checked an Ex phone for evidence?",
     "What subject do you think I thrived at in school and did I fail any?",
-    "Do I seem like a coffee or tea person - sweetened or unsweetened?",
     "As a child what do you think I wanted to be when I grow up?",
     "Do I seem like a morning person or a night owl?",
     "Do you think I was popular at school? Explain.",
@@ -136,12 +132,29 @@ const strings = [
     "What do you admire most about me?",
     "How would you describe me to a stranger?",
     "WILDCARD: Draw your favorite memory with me. Compare",
-    "EASTER EGG (1/?): Would you like to go see Beau is afraid w/me next week? Like, on a date",
-    "EASTER EGG (2/??): Me gustas"
+    "What is the biggest challenge you've overcome in your life?",
+    "Is there a dream or goal you've been putting off pursuing? Why?",
+    "In what ways do you feel you've grown or changed in the past year?",
+    "If you could have a conversation with any historical figure, who would it be and why?",
+    "What is your favorite way to unwind and relax after a long day?",
+    "Do you have a personal mantra or motto that you live by? What is it?",
+    "What is one thing you would like to achieve or accomplish before the end of the year?",
+    "If you had to describe yourself using only three words, what would they be?",
+    "What is your favorite book or movie and why does it resonate with you?",
+    "How do you handle failure or setbacks in your life?",
+    "Is there a particular skill or hobby you've always wanted to learn? Why haven't you pursued it yet?",
+    "What is your most cherished childhood memory and why does it hold significance for you?",
+    "If you could have dinner with any fictional character, who would it be and what would you talk about?",
+    "How do you define success in your life? Has that definition changed over time?",
+    "What is the most important lesson you've learned from a past relationship?",
+    "If you could travel anywhere in the world, where would you go and what would you do there?",
+    "What is your favorite way to express your creativity or artistic side?",
+    "Do you have any regrets in life? If so, what would you have done differently?",
+    "What is the best piece of advice you've ever received and who gave it to you?",
+    "If you had the power to change one thing about the world, what would it be and why?"
 ]
         
     
-
 function generateString() {
 	var randomNumber = Math.floor(Math.random() * strings.length);
 	document.getElementById("output").innerHTML = strings[randomNumber];
