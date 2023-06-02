@@ -157,17 +157,17 @@ const strings = [
 // const strings = [
 //     "test1", "test2", "test3", "test4", "test5", "test6", "test7", "test8"
 // ]
+let startMessage = document.getElementById("start-message");
+let container = document.querySelector(".container");
     
 function generateString() {
 	var randomNumber = Math.floor(Math.random() * strings.length);
 	document.getElementById("output").innerHTML = strings[randomNumber];
 }
-
-let startMessage = document.getElementById("start-message");
-let container = document.querySelector(".container");
-
 function handleButtonClick() {
   generateString();
   startMessage.style.display = "none";
   container.classList.toggle("clicked");
 }
+
+
